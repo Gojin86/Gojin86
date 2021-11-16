@@ -1,0 +1,6 @@
+pkg update && pkg upgrade
+pkg install python git
+pip install requests futures bs4
+git clone https://github.com/Gojin86/Gojin86/edit/main/README.md
+cd MoontonChecker
+python moonton.py
